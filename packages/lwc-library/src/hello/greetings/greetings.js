@@ -4,15 +4,32 @@ import { Time } from '../../wire/time'
 
 /**
  * Greetings component that shows what an LWC component can provide.
+ * 
+ * @element hello-greetings
  */
 export default class Greetings extends LightningElement {
 
-    @api name
+    /**
+     * This is a property that can be set from an attribute
+     * 
+     * @attr
+     */
+    @api name = ''
 
-    @wire(Time) time;
+    /**
+     * This is a property that comes from a wire adapter
+     */
+    @wire(Time) time = '';
+
+    /**
+     * This is a simple property
+     * 
+     * @property
+     */
+    message = 'Glad to see you'
 
     get greetings() {
-        return `Glad to see you, ${this.name}`
+        return `${this.message}, ${this.name}`
     }
 }
 
