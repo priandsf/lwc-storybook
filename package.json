@@ -1,0 +1,19 @@
+{
+  "name": "lwc-wca",
+  "version": "1.6.0",
+  "description": "Sample LWC project to integrate with Web Component Analyzer",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "lerna run build --stream",
+    "start": "lerna run start --scope lwc-app --stream",
+    "clean": "lerna run clean --stream",
+    "test": "lerna run test --stream"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/lwc-library",
+      "packages/lwc-app"
+    ]
+  }
+}
