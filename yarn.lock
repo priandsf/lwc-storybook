@@ -878,7 +878,7 @@
     "@lwc/errors" "1.7.2"
     line-column "~1.0.2"
 
-"@lwc/compiler@^1.6.0":
+"@lwc/compiler@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@lwc/compiler/-/compiler-1.7.2.tgz#66deec4f5e154cc99547311885cc3ead6219bacf"
   integrity sha512-ZXQiTqfawCnkq2uRovAjxUNkpsBeafiMpmwdrUCe5FWuqGbzN11JulNI44J/DwCJuTN/g9yzh7Afv3AjisploA==
@@ -895,7 +895,7 @@
     rollup "~2.10.9"
     terser "~4.7.0"
 
-"@lwc/engine@^1.6.0":
+"@lwc/engine@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@lwc/engine/-/engine-1.7.2.tgz#43ba92f5a9a16b63f081956c39d4e30307efc5f1"
   integrity sha512-sbmpJySwcZ3fgnPYlDRxX3PYQAtjhc7WAAgP692M1rf3M9BbPlJAdbVAb7bOEtGxb1GMIWMRA/WiK1X1TgSs4g==
@@ -948,7 +948,7 @@
   dependencies:
     resolve "~1.17.0"
 
-"@lwc/rollup-plugin@^1.6.0":
+"@lwc/rollup-plugin@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@lwc/rollup-plugin/-/rollup-plugin-1.7.2.tgz#f2af0b23cd862808be90b3f2090178f3e19db55c"
   integrity sha512-JkLem1PQc4b4OUa0SSGeVcG3ndn7MomWoEIwMHivsOVfLsT/SOVk7KMwWL+0rf3+GA1OTwf/PAY4vSMUbCL4FA==
@@ -971,7 +971,7 @@
     postcss-selector-parser "~6.0.2"
     postcss-value-parser "~4.1.0"
 
-"@lwc/synthetic-shadow@^1.6.0":
+"@lwc/synthetic-shadow@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-1.7.2.tgz#60f518d890238a063c78b9230b9222d84e403dc1"
   integrity sha512-ANmaopoFjHGRWgUY/jEWFRGURyy0LLDdl7O0vCnjE5a+cDDVq6xXi6l3motOwVdxAyH68SwAGlyreBJ9ncRFOA==
@@ -992,7 +992,7 @@
     he "~1.2.0"
     parse5-with-errors "4.0.3-beta1"
 
-"@lwc/wire-service@^1.6.0":
+"@lwc/wire-service@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@lwc/wire-service/-/wire-service-1.7.2.tgz#b393886d8694baedf7bf9c3c534d2bdeec6dcb3c"
   integrity sha512-Br9WlEOpt1cRsNKEdA9TUbYP+aGwhy6Ua1eu32RiqEo8F3f1ATODH8XpJi+4GJ5xvoV0DbdwLJAa6GZ2tAL9zg==
