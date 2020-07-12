@@ -7,13 +7,14 @@ const COMPAT          = false;  // Generate the compat files as well
 
 const path = require('path');
 
-const replace = require('rollup-plugin-replace');
+const replace = require('@rollup/plugin-replace');
 const lwcCompiler = require('@lwc/rollup-plugin');
 const compat = require('rollup-plugin-compat');
 const { terser } = require('rollup-plugin-terser');
-const resolve = require('rollup-plugin-node-resolve');
-//const commonjs = require('rollup-plugin-commonjs');
+const resolve  = require('@rollup/plugin-node-resolve').nodeResolve;
+//const commonjs = require('@rollup/plugin-commonjs');
 
+console.log("Resolve is "+(typeof resolve));
 const syntheticShadow = require('./synthetic-shadow');
 
 const env = process.env.NODE_ENV || 'development';

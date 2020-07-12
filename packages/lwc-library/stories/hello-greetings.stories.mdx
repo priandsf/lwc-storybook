@@ -1,0 +1,21 @@
+import { Story, Preview, Meta, Props } from '@storybook/addon-docs/blocks';
+import { html } from 'lit-html';
+
+<Meta title="Hello|Freetings" />
+
+# Hello Greetings
+
+A component that displays a greeting message.
+// [...] use markdown to format your text
+
+<Preview withToolbar>
+  <Story name="Simple" height="220px">
+      {html`<hello-greetings></hello-greetings>`}
+  </Story>
+</Preview>
+
+## API
+
+The api table will show the data of "hello-greetings" in your `custom-elements.json`.
+
+<Props of="hello-greetings" />

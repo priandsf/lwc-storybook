@@ -1,0 +1,48 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "hello-greetings",
+      "path": "./../../src/hello/greetings/greetings.js",
+      "description": "Greetings component that shows what an LWC component can provide.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "This is a property that can be set from an attribute",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "name",
+          "attribute": "name",
+          "description": "This is a property that can be set from an attribute",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "time",
+          "description": "This is a property that comes from a wire adapter",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "message",
+          "description": "This is a simple property",
+          "type": "string",
+          "default": "\"Glad to see you\""
+        },
+        {
+          "name": "greetings",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "hello-world",
+      "path": "./../../src/hello/world/world.js",
+      "description": "The simpliest, possible Hello World component."
+    }
+  ]
+}

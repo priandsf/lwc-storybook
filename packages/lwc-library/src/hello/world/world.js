@@ -8,4 +8,4 @@ import { LightningElement, buildCustomElementConstructor } from 'lwc';
 export default class World extends LightningElement {
 }
 
-customElements.define("hello-world2", buildCustomElementConstructor(World));
+customElements.define("hello-world", buildCustomElementConstructor(World));
